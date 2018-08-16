@@ -1,0 +1,51 @@
+{
+  "name": "cyber-security-intro",
+  "version": "0.0.1",
+  "description": "A 15 minute intro to personal cyber security",
+  "homepage": "http://example.com",
+  "subdomain": "revealjs",
+  "main": "js/reveal.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "grunt serve",
+    "build": "grunt"
+  },
+  "author": {
+    "name": "Alicia Sykes",
+    "email": "alicia@as93.net",
+    "web": "https://aliciasykes.com"
+  },
+  "contributors": [
+    {
+      "name": "Hakim El Hattab",
+      "email": "hakim.elhattab@gmail.com",
+      "web": "http://hakim.se"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lissy93/example.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-retire": "^1.0.7",
+    "grunt-zip": "~0.17.1",
+    "mustache": "^2.3.0",
+    "socket.io": "^1.7.3"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
