@@ -45,13 +45,30 @@ h1 {
     margin-left: 1em;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
     font-family: 'Dosis', 'Raleway', serif;
     text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
 }
 
-p, span, a, small, ul ui, blockquote {
+h3, h4, h5 {
+    font-family: 'Dosis', 'Raleway', serif;
+    font-size: 1.5em;
+    margin: 0.7em 0 0.2em 0;
+}
+
+p, span, a, small, ul ui, blockquote, div {
     font-family: 'Raleway', serif;
+    font-size: 1.1em;
+}
+
+.content ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+section blockquote, section ul{
+    margin: 0.5em 0;
 }
 
 section {
@@ -67,5 +84,5 @@ section {
 }
 
 section .content{
-    padding: 2em;
+    padding: 1.5em 2em;
 }
