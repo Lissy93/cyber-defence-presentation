@@ -3,10 +3,6 @@ html, body{
     -webkit-print-color-adjust: exact !important;
 }
 
-body {
-    margin: 2em;
-}
-
 @font-face {
     font-family: 'Dosis';
     src: url('../lib/font/Dosis-Light.ttf')  format('truetype');
