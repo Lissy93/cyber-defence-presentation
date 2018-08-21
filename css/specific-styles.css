@@ -24,7 +24,7 @@
     src: url('../lib/font/Raleway-Light.ttf')  format('truetype');
 }
 
-.reveal p{
+.reveal p, p{
     text-align: left;
 }
 
@@ -41,7 +41,9 @@
              0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.reveal p, .reveal span, .reveal a, .reveal small, .reveal ul li, .reveal blockquote{
+p, span, a, small, ul ui, blockquote,
+.reveal p, .reveal span, .reveal a, 
+.reveal small, .reveal ul li, .reveal blockquote{
     font-family: 'Raleway', serif;
 }
 

@@ -1,0 +1,71 @@
+body{
+    background: #f2f2f2;
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../lib/font/Dosis-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../lib/font/Raleway-Light.ttf')  format('truetype');
+}
+
+p, span{
+    text-align: left;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #676767;
+}
+
+.section-header {
+    background: #e46b6b;
+    margin: 0;
+    padding: 0.5em;
+    color: rgba(255,255,255,0.9);
+    font-size: 2em;
+    -moz-box-shadow:    inset 0 0 1em rgba(80,80,80,0.2);
+    -webkit-box-shadow: inset 0 0 1em rgba(80,80,80,0.2);;
+    box-shadow:         inset 0 0 1em rgba(80,80,80,0.2);;
+}
+
+.section-header img{
+    height: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-header h2{
+    color: rgba(255,255,255,0.9);
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Dosis', 'Raleway', serif;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+}
+
+p, span, a, small, ul ui, blockquote {
+    font-family: 'Raleway', serif;
+}
+
+section {
+    background: #FFF;
+    box-shadow: 
+        0 -1px 0 #e0e0e0, 
+        0 0 2px rgba(0,0,0,.12), 
+        0 2px 4px rgba(0,0,0,.24);
+    border-radius: 2px;
+    max-width: 60em;
+    margin: 1em auto;
+    padding: 0 0 1em 0;
+}
+
+section .content{
+    padding: 2em;
+}
