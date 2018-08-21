@@ -1,5 +1,10 @@
-body{
+html, body{
     background: #f2f2f2;
+    -webkit-print-color-adjust: exact !important;
+}
+
+body {
+    margin: 2em;
 }
 
 @font-face {
@@ -81,6 +86,7 @@ section {
     max-width: 60em;
     margin: 1em auto;
     padding: 0 0 1em 0;
+    page-break-inside: avoid;
 }
 
 section .content{
