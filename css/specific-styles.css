@@ -41,7 +41,7 @@
              0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.reveal p, .reveal span, .reveal a, .reveal small, .reveal ul li{
+.reveal p, .reveal span, .reveal a, .reveal small, .reveal ul li, .reveal blockquote{
     font-family: 'Raleway', serif;
 }
 
